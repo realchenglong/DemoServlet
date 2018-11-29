@@ -12,7 +12,7 @@ public class HelloWorld extends HttpServlet {
 
     @Override
     public void init() throws ServletException {
-        message = "Hello world, this message is from servlet!";
+        message = "Hello world, chenggong!";
     }
 
     @Override
