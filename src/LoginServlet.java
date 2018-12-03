@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
         String password=request.getParameter("password");
         //调用dao 调用daozhongde 函数
         UserDao dao=new UserDao();
-        User user=dao.CheckEmailPwd(email, password);
+        User user=dao.CheckPassword(email, password);
 
 
         if(user==null){

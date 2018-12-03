@@ -21,7 +21,6 @@ public class DBHelper {
 
     /**
      * 单条语句的增删改   说明:在执行成功后函数返回的结果为非零整数
-     *
      * @param sql    需要执行的sql语句
      * @param params 执行sql语句的参数
      * @return
