@@ -13,6 +13,10 @@ File Encoding         : 65001
 Date: 2018-12-01 11:26:41
 */
 
+drop database IF EXISTS dang;-- 删除数据库
+create database dang default character set utf8;-- 创建指定字符集的数据库
+use dang;-- 进入dang数据库
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
